@@ -3,27 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Teste</title>
+    <title>"Para matar a saudade"</title>
+    <script>
+        function mostrarMensagem() {
+            alert('Olá, você clicou no botão!');
+        }
+    </script>
     <link rel="stylesheet" href="main.css">
+    <style>
+        button {
+            padding: 10px 40px;
+            font-size: 50px;
+        }
+        .framed-text {
+            border: 5px solid black;
+            padding: 20px;
+            display:inline-block;
+
+        }
+
+
+    </style>
 </head>
 <body class="light-theme"></body>
-<body>
-<div id="button-container"></div>
+    
 </body>
-<script>
-    const button = document.creatElement('button');
-    button.textContent = 'clique aqui';
-    button.addEventListener('click', () => {
-            window.location.href = 'https://www.exemplo.com';
+<body>    
+</div>
+    <h1>Para matar a saudade</h1>
+    <p id="msg">Informaçõe sobre a terrinha</p>
+        </body>
+    <body>
+        <button onclick="mostrarMensagem()">Atalho para o GCN</button>        
+    </body>
+  <body>
+    <div id="button-container"></div>
+
+    <script>
+        // Cria um novo botão
+        const button = document.createElement('button');
+        button.textContent = 'Clique aqui';
+        // Adiciona um evento de clique ao botão
+        button.addEventListener('click', () => {
+            window.location.href = 'https://sampi.net.br/franca';
         });
 
         // Adiciona o botão ao container
         document.getElementById('button-container').appendChild(button);
     </script>
-    
-</script>
-
-
-
-    
+</body>
 </html>
