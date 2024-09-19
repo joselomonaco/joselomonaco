@@ -7,12 +7,23 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body class="light-theme"></body>
-    
-</body>
 <body>
-    <h1>Projeto Site-teste</h1>
- </body>
-        <a href="https://www.uol.com.br" class="button-link" target="_blank">
-        <a href="https://www.uol.com.br" target="_blank"</a>
-    </body>
+<div id="button-container"></div>
+</body>
+<script>
+    const button = document.creatElement('button');
+    button.textContent = 'clique aqui';
+    button.addEventListener('click', () => {
+            window.location.href = 'https://www.exemplo.com';
+        });
+
+        // Adiciona o botão ao container
+        document.getElementById('button-container').appendChild(button);
+    </script>
+    
+</script>
+
+
+
+    
 </html>
