@@ -3,51 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"BRAGER"</title>
+    <title>BRAGER</title>
     <script>
         function mostrarMensagem() {
-            alert('Hallo! Herzlich willlommen!');
+            alert('Hallo! Herzlich willkommen!');
         }
     </script>
     <link rel="stylesheet" href="main.css">
     <style>
         button {
-            padding: 10 px 40 px;
-            font-size: 50 px;
+            padding: 10px 40px;
+            font-size: 20px;
         }
         button {
             position: absolute;
-            top: 50 px;
-            left: 100 px;
+            top: 50px;
+            left: 100px;
         }            
         .framed-text {
-            border: 5 px solid black;
-            padding: 20 px;
-            display:inline-block;
+            border: 5px solid black;
+            padding: 20px;
+            display: inline-block;
         }
     </style>
 </head>
-<body class="BRAGER Handel und Vertretung GmbH"></body>
-<body>    
-</div>
+<body class="BRAGER Handel und Vertretung GmbH">
     <h1>Lernen Sie unser Unternehmen kennen - BRAGER</h1>
-    <body>
-        <button onclick="mostrarMensagem()">Lernen Sie unser Unternehmen kennen - BRAGER</button>        
+    <button onclick="mostrarMensagem()">Lernen Sie unser Unternehmen kennen - BRAGER</button>        
     <div id="button-container"></div>
-    </body>
     <script>
         // Cria um novo botão
         const button = document.createElement('button');
         button.textContent = 'Klicken Sie hier, um unsere Produkte kennenzulernen';
         // Adiciona um evento de clique ao botão
-        <body>
         button.addEventListener('click', () => {
-            <embed src="D:CATALOGO.pdf" type="application/pdf" width="600" height="400">
+            const embed = document.createElement('embed');
+            embed.src = 'D:CATALOGO.pdf';
+            embed.type = 'application/pdf';
+            embed.width = '600';
+            embed.height = '400';
+            document.getElementById('button-container').appendChild(embed);
         });
 
         // Adiciona o botão ao container
         document.getElementById('button-container').appendChild(button);
-    </body>
     </script>
 </body>
 </html>
+
